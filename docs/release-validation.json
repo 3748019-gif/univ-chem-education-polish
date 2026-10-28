@@ -1,0 +1,25 @@
+{
+  "public_name": "univ-chem-education-polish",
+  "version": "1.0.0",
+  "date": "2026-10-28",
+  "privacy_scan": "passed",
+  "corpus_entries": 153,
+  "base_predefined_checks": {
+    "passed": 63,
+    "total": 63
+  },
+  "targeted_S04_retest": "passed",
+  "package_formats_checked": [
+    "codex",
+    "workbuddy",
+    "gemini-cli",
+    "gemini-web",
+    "claude-code",
+    "claude-web"
+  ],
+  "native_account_import_tested": false,
+  "multi_vendor_models_tested": false,
+  "current_Codex_independent_context_semantic_tests": true,
+  "fulltext_or_private_manuscripts_included": false,
+  "fixed_school_sample_or_chapter_assumptions": false
+}
