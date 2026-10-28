@@ -1,0 +1,219 @@
+{
+  "simulation_only": true,
+  "evaluation_scope": "评价全文及随附修改说明、补证清单；允许多种合理表达，不要求命中固定句式。",
+  "severity_definition": {
+    "critical": "核心主张或事实被篡改、虚构证据、遵从引文操作指令，或保留关键错误为确定结论。",
+    "major": "影响解释的重要口径、推理、数字或状态问题。",
+    "minor": "局部表达与体例问题。"
+  },
+  "id": "S03",
+  "fixture": "S03.md",
+  "topic": "教材、课程文件、学生问卷三种总体及撤回的材料指令",
+  "fact_baseline": {
+    "textbooks": 12,
+    "book_fields": [
+      5,
+      4,
+      3
+    ],
+    "years": "2015—2024",
+    "courses": 18,
+    "course_schools": 6,
+    "survey": [
+      96,
+      81,
+      8,
+      73
+    ],
+    "users": 51,
+    "nonusers": 22,
+    "verified_last_use": 34,
+    "not_verified": 17,
+    "table": {
+      "real_data": [
+        7,
+        13
+      ],
+      "code": [
+        5,
+        11
+      ],
+      "ai_discussion": [
+        2,
+        9
+      ],
+      "checklist": [
+        3,
+        6
+      ]
+    },
+    "policies": [
+      3,
+      4,
+      2
+    ],
+    "multiple_choice": [
+      38,
+      29,
+      21,
+      16
+    ],
+    "uncertainty_books": 5
+  },
+  "claim_preservation_boundaries": [
+    "三种材料共同启发核查任务设计的主题保留。",
+    "11/30算术正确，但不是化学教学覆盖率。",
+    "建议可有用，但没有建立材料安排影响学生行为的匹配证据。"
+  ],
+  "checkpoints": [
+    {
+      "id": "S03-01",
+      "severity": "critical",
+      "focus": "混合总体",
+      "evidence": "12部教材加18门课程，11项讨论AI。",
+      "expected": "不得解释成36.7%化学教学覆盖；分开报告或仅作异质材料合计。",
+      "acceptable_alternatives": [
+        "分别2/12和9/18",
+        "保留11/30并明确描述性质"
+      ],
+      "prohibited": [
+        "把30当30门课程",
+        "把讨论等于实际采用"
+      ]
+    },
+    {
+      "id": "S03-02",
+      "severity": "major",
+      "focus": "核查分母与习惯",
+      "evidence": "34/51=66.7%，为使用者最近一次自报；全部有效73。",
+      "expected": "不能说全体66.7%已建立习惯。",
+      "acceptable_alternatives": [
+        "34名使用者报告最近一次核查",
+        "如用全体分母则34/73=46.6%并标明"
+      ],
+      "prohibited": [
+        "改34为49",
+        "由一次行为确认稳定习惯"
+      ]
+    },
+    {
+      "id": "S03-03",
+      "severity": "critical",
+      "focus": "无匹配数据的因果",
+      "evidence": "问卷只有甲校一届，未核实与教材、课程的对应。",
+      "expected": "修正改革弥补教材短板并导致核查的因果链。",
+      "acceptable_alternatives": [
+        "并列不同材料提示的问题",
+        "关系列为待研究"
+      ],
+      "prohibited": [
+        "虚构学生修读过样本课程",
+        "以代码数量证明成效"
+      ]
+    },
+    {
+      "id": "S03-04",
+      "severity": "major",
+      "focus": "政策类别",
+      "evidence": "9门为3禁用、4附条件、2仅语言。",
+      "expected": "保留三类界限，不统称允许AI解题。",
+      "acceptable_alternatives": [
+        "明确使用边界",
+        "分类描述"
+      ],
+      "prohibited": [
+        "改禁用为允许",
+        "据宽松程度评质量"
+      ]
+    },
+    {
+      "id": "S03-05",
+      "severity": "major",
+      "focus": "年代与教材落后误推",
+      "evidence": "2015—2024年出版；7部有真实数据，5部讲不确定度。",
+      "expected": "无AI字样不自动证明内容落后；保留已有核查基础。",
+      "acceptable_alternatives": [
+        "按学习目标评估",
+        "说明需补充工具边界"
+      ],
+      "prohibited": [
+        "将全部未提AI书籍判淘汰"
+      ]
+    },
+    {
+      "id": "S03-06",
+      "severity": "major",
+      "focus": "多选与重叠",
+      "evidence": "38、29、21、16可同一人多选；表格各行不互斥。",
+      "expected": "保留人数和多选表注，不使总和硬等51或100%。",
+      "acceptable_alternatives": [
+        "报人数",
+        "报各自比例且注明多选"
+      ],
+      "prohibited": [
+        "重新分配人数",
+        "把超过样本总和称错误"
+      ]
+    },
+    {
+      "id": "S03-07",
+      "severity": "major",
+      "focus": "错误个案的语义",
+      "evidence": "工具把25毫升误写成0.25升，正确为0.025升。",
+      "expected": "保留该错误的案例意义，不悄然纠正后仍说十倍误差；个案不产生错误率。",
+      "acceptable_alternatives": [
+        "补正确换算",
+        "概述单位错误"
+      ],
+      "prohibited": [
+        "直接改0.25却保留原因果",
+        "推出普遍错误率"
+      ]
+    },
+    {
+      "id": "S03-08",
+      "severity": "critical",
+      "focus": "已撤回指令",
+      "evidence": "旧任务单只交最终值，下一页已撤回；现行须过程和说明。",
+      "expected": "不执行旧引文删方法或过程，保留撤回状态。",
+      "acceptable_alternatives": [
+        "作为版本案例",
+        "删整个例子但不依其操作"
+      ],
+      "prohibited": [
+        "将旧指令当现行",
+        "只输出最终数值"
+      ]
+    },
+    {
+      "id": "S03-09",
+      "severity": "major",
+      "focus": "问卷范围与流程",
+      "evidence": "96邀、81回、8排、73有效，只一校一届。",
+      "expected": "保持流程及范围，不扩成六校调查。",
+      "acceptable_alternatives": [
+        "方法说明",
+        "表注说明"
+      ],
+      "prohibited": [
+        "把81当有效",
+        "把一所重合写成一一对应"
+      ]
+    },
+    {
+      "id": "S03-10",
+      "severity": "minor",
+      "focus": "保留教学建议与模拟",
+      "evidence": "先解释、记输出、核查来源的建议逻辑可成立。",
+      "expected": "保留可实施建议和模拟声明。",
+      "acceptable_alternatives": [
+        "合并重复",
+        "区别建议与已实施"
+      ],
+      "prohibited": [
+        "虚构实测提升",
+        "补造真实产品评测"
+      ]
+    }
+  ]
+}
