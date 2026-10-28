@@ -1,0 +1,87 @@
+{
+  "name": "univ-chem-education-polish",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "platform": "codex",
+      "file": "univ-chem-education-polish-codex-v1.0.0.zip",
+      "sha256": "46a7757bf3702cfe6c3127c997ac251179edb0b913749a17f20219a50c6adb6b",
+      "bytes": 34786,
+      "files": {
+        "SKILL.md": "e78bdb8f1ad2ead0eed8e3c84f097f42ac7c109d75afc3e025b68f6845eaac40",
+        "agents/openai.yaml": "d5e2922a5108f4a50f1042d69e80d317260a03267a8a0f4bb21f3ed8d6d25de9",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    },
+    {
+      "platform": "workbuddy",
+      "file": "univ-chem-education-polish-workbuddy-v1.0.0.zip",
+      "sha256": "3da110fd99912cbcfbfd380fb9469a5a810bc43c0480264762ea6af2eb34e272",
+      "bytes": 34506,
+      "files": {
+        "SKILL.md": "378508bb7aa35cf56b81921741eb8ecf0e58d7d9c8ff796827ce7de2255cf286",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    },
+    {
+      "platform": "gemini-cli",
+      "file": "univ-chem-education-polish-gemini-cli-v1.0.0.skill",
+      "sha256": "5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770",
+      "bytes": 34343,
+      "files": {
+        "SKILL.md": "e78bdb8f1ad2ead0eed8e3c84f097f42ac7c109d75afc3e025b68f6845eaac40",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    },
+    {
+      "platform": "gemini-web",
+      "file": "univ-chem-education-polish-gemini-web-v1.0.0.zip",
+      "sha256": "5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770",
+      "bytes": 34343,
+      "files": {
+        "SKILL.md": "e78bdb8f1ad2ead0eed8e3c84f097f42ac7c109d75afc3e025b68f6845eaac40",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    },
+    {
+      "platform": "claude-code",
+      "file": "univ-chem-education-polish-claude-code-v1.0.0.zip",
+      "sha256": "5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770",
+      "bytes": 34343,
+      "files": {
+        "SKILL.md": "e78bdb8f1ad2ead0eed8e3c84f097f42ac7c109d75afc3e025b68f6845eaac40",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    },
+    {
+      "platform": "claude-web",
+      "file": "univ-chem-education-polish-claude-web-v1.0.0.zip",
+      "sha256": "5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770",
+      "bytes": 34343,
+      "files": {
+        "SKILL.md": "e78bdb8f1ad2ead0eed8e3c84f097f42ac7c109d75afc3e025b68f6845eaac40",
+        "references/corpus-index.json": "6346e042cc0cf7a69eb91e85248dd84ea59621641325cbe8a081723e42f63019",
+        "references/editorial-method.md": "20d1a6741685d2d3722890668a10365ca64b705df8ea50e128018316e2f0377b",
+        "references/evidence-map.md": "cd8caae1eeeae8fe15c8acb7311112f01e8bbb2be436ce3cbcb5b4c46da11851",
+        "references/examples.md": "37463c7839bb833c5c0491a842223f354d85c5843e2f512dc81d4a0f24a5b551"
+      }
+    }
+  ],
+  "archive_layout": "single named root directory",
+  "scope": "Local release artifacts; no automatic upload or installation"
+}
