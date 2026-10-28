@@ -1,0 +1,6 @@
+46a7757bf3702cfe6c3127c997ac251179edb0b913749a17f20219a50c6adb6b  univ-chem-education-polish-codex-v1.0.0.zip
+3da110fd99912cbcfbfd380fb9469a5a810bc43c0480264762ea6af2eb34e272  univ-chem-education-polish-workbuddy-v1.0.0.zip
+5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770  univ-chem-education-polish-gemini-cli-v1.0.0.skill
+5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770  univ-chem-education-polish-gemini-web-v1.0.0.zip
+5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770  univ-chem-education-polish-claude-code-v1.0.0.zip
+5c27ce9ae031b128769ad6249508525f3a01e25ef0604e3cf6df1e3b75ad7770  univ-chem-education-polish-claude-web-v1.0.0.zip
