@@ -1,0 +1,21 @@
+{
+  "evaluation_scope": "Complete edited text plus checklist; independent new editing contexts, no oracle access",
+  "final_candidate": {
+    "gemini": {
+      "S01": 10,
+      "S03": 10,
+      "S06": 12,
+      "H03": 8
+    },
+    "codex": {
+      "H03": 8,
+      "S04": 10
+    }
+  },
+  "result": "58 preset checks passed; no blocking additional defect in cross-review",
+  "oracle_correction": "S01-04 source does not establish that research-credit attribution differs across schools",
+  "nonblocking_notes": [
+    "Some checklists can be shorter",
+    "A small number of explanatory phrases can be more precise"
+  ]
+}
