@@ -1,6 +1,6 @@
 {
   "name": "univ-chem-education-polish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "display_name": "大学化学教育论文润色",
   "display_name_en": "Chemistry Education Manuscript Editing",
   "description_zh": "保留作者结构与主要观点，检查化学教育论文的逻辑、措辞和比较口径，集中列出补证事项。",

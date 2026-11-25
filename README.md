@@ -2,7 +2,7 @@
 
 `univ-chem-education-polish` 帮助作者修改拟投《大学化学》的培养方案、国际比较与教学改革论文：保留作者结构和主要观点，检查逻辑、润色措辞、校准比较与结论口径，并集中指出需要补证的位置。
 
-公开版 v1.0.0。它是按当前稿件工作的通用编辑技能，不预设学校名单、样本数量或章节数。技能文件提供方法，实际阅读与修改由调用它的 AI 模型完成。
+公开版 v1.0.1。它是按当前稿件工作的通用编辑技能，不预设学校名单、样本数量或章节数。技能文件提供方法，实际阅读与修改由调用它的 AI 模型完成。
 
 ## 可以处理什么
 
@@ -18,12 +18,14 @@
 
 | 使用环境 | 下载文件 | 安装入口 |
 | --- | --- | --- |
-| Codex | [Codex ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-codex-v1.0.0.zip) | 解压技能目录至用户技能目录 |
-| WorkBuddy | [WorkBuddy ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-workbuddy-v1.0.0.zip) | 技能上传入口；包含专用展示元数据 |
-| Gemini CLI | [Gemini CLI .skill](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-gemini-cli-v1.0.0.skill) | `gemini skills install` |
-| Gemini 网页 | [Gemini 网页 ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-gemini-web-v1.0.0.zip) | Customize → Skills → Upload |
-| Claude Code | [Claude Code ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-claude-code-v1.0.0.zip) | 解压至 `.claude/skills` |
-| Claude 网页 | [Claude 网页 ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.0/univ-chem-education-polish-claude-web-v1.0.0.zip) | Customize → Skills → Upload a skill |
+| Codex | [Codex ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-codex-v1.0.1.zip) | 解压技能目录至用户技能目录 |
+| WorkBuddy | [WorkBuddy ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-workbuddy-v1.0.1.zip) | 技能上传入口；包含专用展示元数据 |
+| Gemini CLI | [Gemini CLI .skill](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-gemini-cli-v1.0.1.skill) | `gemini skills install` |
+| Gemini 网页 | [Gemini 网页 ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-gemini-web-v1.0.1.zip) | Customize → Skills → Upload |
+| Claude Code | [Claude Code ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-claude-code-v1.0.1.zip) | 解压至 `.claude/skills` |
+| Claude 网页 | [Claude 网页 ZIP](https://github.com/3748019-gif/univ-chem-education-polish/releases/download/v1.0.1/univ-chem-education-polish-claude-web-v1.0.1.zip) | Customize → Skills → Upload a skill |
+
+Antigravity本轮也使用同一核心技能目录，已完成真实模型回归与覆盖安装核验。
 
 具体目录、命令、账号条件和安装后的检查见[安装说明](docs/INSTALL.md)。GitHub 的整个仓库源码 ZIP 用于查看和维护；上传技能时请选上表中对应的单技能包。
 
@@ -36,6 +38,13 @@
 也可以限定任务，例如“只检查摘要与正文是否一致”“只处理课程比较的计数口径”“用真实修订模式修改Word，保留原格式”。正文、补证清单和修改说明的取舍以当次指令为准。
 
 详细流程与示例见[使用说明](docs/USAGE.md)、[编辑方法](references/editorial-method.md)和[模拟修改示例](references/examples.md)。无需为每次润色准备153篇全文；若要核实其中某篇的具体引文，则须取得对应原文。
+
+## 本次更新
+
+- 更准确地区分检索总体与有效材料分母，避免把未知状态自动写成已实施。
+- 保留原稿观察、审批状态与作者建议，减少无依据删换或强化。
+- 不根据结果表补造检索、编码等方法，补证要求与结论力度相称。
+- 完成Codex与Antigravity的真实模型联合回归，并保留六种兼容安装包。
 
 ## 验证范围
 
