@@ -1,25 +1,13 @@
 {
-  "public_name": "univ-chem-education-polish",
-  "version": "1.0.0",
-  "date": "2026-10-28",
-  "privacy_scan": "passed",
-  "corpus_entries": 153,
-  "base_predefined_checks": {
-    "passed": 63,
-    "total": 63
-  },
-  "targeted_S04_retest": "passed",
-  "package_formats_checked": [
-    "codex",
-    "workbuddy",
-    "gemini-cli",
-    "gemini-web",
-    "claude-code",
-    "claude-web"
-  ],
-  "native_account_import_tested": false,
-  "multi_vendor_models_tested": false,
-  "current_Codex_independent_context_semantic_tests": true,
-  "fulltext_or_private_manuscripts_included": false,
-  "fixed_school_sample_or_chapter_assumptions": false
+  "date": "2026-11-25",
+  "version": "1.0.1",
+  "publication": "public release v1.0.1",
+  "independent_edit_runs": 21,
+  "gemini_runs": 16,
+  "codex_runs": 5,
+  "final_candidate_runs": 6,
+  "final_candidate_preset_checks": 58,
+  "cross_review": "passed; additional defects checked",
+  "format_packages": 6,
+  "scope": "Markdown behavior and bundle structure; no Word layout or other client runtime validation"
 }

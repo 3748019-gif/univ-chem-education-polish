@@ -8,9 +8,9 @@
 
 ## 发布安装包
 
-仓库上传完成后，进入 `Releases → Draft a new release`，建立标签 `v1.0.0`。将 `dist/` 中六个ZIP/.skill文件及 `SHA256SUMS.txt` 作为附件上传，填写功能与验证范围，再发布。
+仓库上传完成后，进入 `Releases → Draft a new release`，建立与 `release-config.json` 一致的新标签（本版为 `v1.0.1`）。将 `dist/` 中六个ZIP/.skill文件、根目录 `README.md` 及 `SHA256SUMS.txt` 作为附件上传，填写功能与验证范围，再发布。
 
-README中已经使用相对路径指向仓库的安装文件，不需要先填GitHub用户名。发布Releases后，可将这些下载链接改为实际Release附件地址。发布操作见[GitHub官方说明](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)。
+README中已使用本仓库对应版本的Release附件地址。发布新版本时，需同步更新链接中的标签与文件名，并核对六个安装包及README附件均可下载。发布操作见[GitHub官方说明](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)。
 
 ## 更新维护
 

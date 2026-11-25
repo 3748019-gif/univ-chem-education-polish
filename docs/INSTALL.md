@@ -7,14 +7,26 @@
 下载Codex ZIP，解压后将 `univ-chem-education-polish` 文件夹放到用户目录：
 
 ```text
-~/.agents/skills/univ-chem-education-polish/
+~/.codex/skills/univ-chem-education-polish/
 ```
 
-项目内安装可放在 `.agents/skills/`。Windows的 `~` 表示当前用户主目录；可在资源管理器中进入用户目录后创建 `.agents/skills`。
+项目内安装可放在 `.agents/skills/`。Windows的 `~` 表示当前用户主目录；可在资源管理器中进入用户目录后创建 `.codex/skills`。
 
-安装后在技能列表中查找，或输入 `$univ-chem-education-polish` 加稿件任务。未出现时重启或新建会话。也可以让Codex自带的skill-installer从发布后的GitHub仓库安装。
+安装后下一轮可用，可在技能列表中查找，或输入 `$univ-chem-education-polish` 加稿件任务。也可以让Codex自带的skill-installer从发布后的GitHub仓库安装。
 
 这是独立技能目录的本地安装方式，不是插件市场上架包。[官方说明](https://learn.chatgpt.com/docs/build-skills)
+
+## Antigravity（本轮实测）
+
+本轮使用以下用户技能目录，并已通过当前客户端读取确认：
+
+```text
+~/.gemini/config/skills/univ-chem-education-polish/
+```
+
+保留整个技能目录的 `SKILL.md` 与 `references/`，更新时覆盖同名核心文件。可从Gemini ZIP解压取得相同的五个核心文件；这里是目录安装，不宣称该ZIP存在专用导入按钮。其他客户端版本或项目配置以实际技能发现目录为准。
+
+更新已有安装时，先将备份移到活动技能目录之外，再覆盖同名技能，避免同时调用旧规则。
 
 ## WorkBuddy
 
@@ -29,7 +41,7 @@
 使用后缀为 `.skill` 的文件，不先改成 `.zip`。在文件所在目录执行：
 
 ```bash
-gemini skills install ./univ-chem-education-polish-gemini-cli-v1.0.0.skill --scope user
+gemini skills install ./univ-chem-education-polish-gemini-cli-v1.0.1.skill --scope user
 gemini skills list
 ```
 
